@@ -1,10 +1,11 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { DataComponent } from './data/data.component';
+import { UploadComponent } from './upload/upload.component';
+import { TableComponent } from './table/table.component';
 
 
 const routes: Routes = [
-  {path:'',component:DataComponent}
+ 
 ];
 
 @NgModule({

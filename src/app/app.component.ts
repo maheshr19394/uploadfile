@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'uploadfile';
+  title = 'upload';
+  data: any;
+  fn(e) {
+    this.data = e;
+  }
 }
